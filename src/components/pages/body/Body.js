@@ -63,15 +63,15 @@ export default class Body extends Component {
 
   render() {
     return (
-      <main>       
-        <div className="container rounded">
+      <main>
+        <div className="container searchContainer">
           <div className="search card card-body">
             <div className="row">
               <div className="col-lg-6">
                 <h1>Github User's</h1>
               </div>
               <div className="col-lg-6">
-                <form className="form-inline" onSubmit={this.searchUser}>
+                <form className="form-inline w-100" onSubmit={this.searchUser}>
                   <input
                     onChange={this.updateInput}
                     value={this.state.username}
