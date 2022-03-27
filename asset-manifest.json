@@ -1,25 +1,15 @@
 {
   "files": {
-    "main.css": "/Team_Fetchers_SocialCodingExperience/static/css/main.771ad922.chunk.css",
-    "main.js": "/Team_Fetchers_SocialCodingExperience/static/js/main.97a600e0.chunk.js",
-    "main.js.map": "/Team_Fetchers_SocialCodingExperience/static/js/main.97a600e0.chunk.js.map",
-    "runtime-main.js": "/Team_Fetchers_SocialCodingExperience/static/js/runtime-main.e10d7597.js",
-    "runtime-main.js.map": "/Team_Fetchers_SocialCodingExperience/static/js/runtime-main.e10d7597.js.map",
-    "static/css/2.ef9168ec.chunk.css": "/Team_Fetchers_SocialCodingExperience/static/css/2.ef9168ec.chunk.css",
-    "static/js/2.c1934be6.chunk.js": "/Team_Fetchers_SocialCodingExperience/static/js/2.c1934be6.chunk.js",
-    "static/js/2.c1934be6.chunk.js.map": "/Team_Fetchers_SocialCodingExperience/static/js/2.c1934be6.chunk.js.map",
-    "static/js/3.a827e275.chunk.js": "/Team_Fetchers_SocialCodingExperience/static/js/3.a827e275.chunk.js",
-    "static/js/3.a827e275.chunk.js.map": "/Team_Fetchers_SocialCodingExperience/static/js/3.a827e275.chunk.js.map",
+    "main.css": "/Team_Fetchers_SocialCodingExperience/static/css/main.9d54271e.css",
+    "main.js": "/Team_Fetchers_SocialCodingExperience/static/js/main.cac1015e.js",
+    "static/js/787.ec1cf1f6.chunk.js": "/Team_Fetchers_SocialCodingExperience/static/js/787.ec1cf1f6.chunk.js",
     "index.html": "/Team_Fetchers_SocialCodingExperience/index.html",
-    "static/css/2.ef9168ec.chunk.css.map": "/Team_Fetchers_SocialCodingExperience/static/css/2.ef9168ec.chunk.css.map",
-    "static/css/main.771ad922.chunk.css.map": "/Team_Fetchers_SocialCodingExperience/static/css/main.771ad922.chunk.css.map",
-    "static/js/2.c1934be6.chunk.js.LICENSE.txt": "/Team_Fetchers_SocialCodingExperience/static/js/2.c1934be6.chunk.js.LICENSE.txt"
+    "main.9d54271e.css.map": "/Team_Fetchers_SocialCodingExperience/static/css/main.9d54271e.css.map",
+    "main.cac1015e.js.map": "/Team_Fetchers_SocialCodingExperience/static/js/main.cac1015e.js.map",
+    "787.ec1cf1f6.chunk.js.map": "/Team_Fetchers_SocialCodingExperience/static/js/787.ec1cf1f6.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.e10d7597.js",
-    "static/css/2.ef9168ec.chunk.css",
-    "static/js/2.c1934be6.chunk.js",
-    "static/css/main.771ad922.chunk.css",
-    "static/js/main.97a600e0.chunk.js"
+    "static/css/main.9d54271e.css",
+    "static/js/main.cac1015e.js"
   ]
 }
