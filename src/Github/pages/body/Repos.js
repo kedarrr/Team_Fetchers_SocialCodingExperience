@@ -2,7 +2,7 @@ import React from "react";
 import dateFormat from "dateformat";
 
 export default function Repos(user) {
-  // console.log(user.repos);
+  //console.log(user.repos);
   const repos = user.repos;
 
   return (
@@ -22,7 +22,7 @@ export default function Repos(user) {
                       {repo.name}
                     </a>
                   </h3>
-                  <p className="mt-2 mb-2">{repo.description}</p>
+                  <p className="mt-2 mb-2">Description: {repo.description}</p>
                   <p>
                     Language:{" "}
                     <span className="badge bg-info">{repo.language}</span>

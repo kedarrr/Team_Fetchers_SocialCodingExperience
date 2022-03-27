@@ -7,7 +7,7 @@ export default function Profile(user) {
   const blogurl = user.profile.blog;
   return (
     <div className="sticky-top scrolly">
-      <img src={user.profile.avatar_url} className="img-fluid rounded" alt="" />
+      <img src={user.profile.avatar_url} className="img-fluid rounded-circle" alt="" />
       <div className="text-center">
         <h1>{user.profile.name}</h1>
         <p>{user.profile.login}</p>
@@ -19,6 +19,7 @@ export default function Profile(user) {
       >
         View Profile
       </a>
+      <div class="">
       <span className="badge bg-success">
         Followers: {user.profile.followers}
       </span>
@@ -31,6 +32,7 @@ export default function Profile(user) {
       <span className="badge bg-info">
         Public Gists: {user.profile.public_gists}
       </span>
+      </div>
       <ul className="text-left mt-4 mb-2 p-0">
         <li className="list-group-item">Company: {user.profile.company}</li>
         <li className="list-group-item">

@@ -5,7 +5,6 @@ import MainComponent from '../Github/MainComponent'
 const Dashboard = () => {
   return (
       <>
-    <div>Dashboard</div>
     <MainComponent />
     </>
   )

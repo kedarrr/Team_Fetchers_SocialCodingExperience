@@ -21,12 +21,6 @@ const Navbar = () => {
                     <li className="nav-item">
                         <NavLink exact activeClassName="active-page" className="nav-link" to="/about">AboutMe</NavLink>
                     </li>
-                    <li className="nav-item">
-                        <NavLink exact activeClassName="active-page" className="nav-link" to="/contact">Contact</NavLink>
-                    </li>
-                    <li className="nav-item">
-                        <NavLink exact activeClassName="active-page" className="nav-link" to="/logout">logout</NavLink>
-                    </li>
                 </>
                 
             )
@@ -38,20 +32,7 @@ const Navbar = () => {
                     </li>
                     <li className="nav-item">
                         <NavLink exact activeClassName="active-page" className="nav-link" to="/about">AboutMe</NavLink>
-                    </li>
-                    <li className="nav-item">
-                        <NavLink exact activeClassName="active-page" className="nav-link" to="/contact">Contact</NavLink>
-                    </li>
-
-                    <li className="nav-item">
-                        <NavLink exact activeClassName="active-page" className="nav-link" to="/login">Login</NavLink>
-                    </li>
-                    
-                    <li className="nav-item">
-                        <NavLink exact activeClassName="active-page" className="nav-link" to="/signup">Register</NavLink>
-                    </li>
-                  
-                    
+                    </li>                  
                 </>
             )
         }
