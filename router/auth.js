@@ -44,7 +44,7 @@ router.get('/', (req, res) => {
 
 router.post('/register', async (req, res) => {
 
-    const { name, email, phone, work, password, cpassword} = req.body;
+    const { name, email, phone, work, github, password, cpassword} = req.body;
     
     if (!name || !email || !phone || !work || !password || !cpassword) {
         return res.status(422).json({ error: "Plz filled the field properly" });
@@ -59,7 +59,7 @@ router.post('/register', async (req, res) => {
         } else if (password != cpassword) {
              return res.status(422).json({ error: "password are not matching" });
         } else {
-             const user = new User({ name, email, phone, work, password, cpassword });
+             const user = new User({ name, email, phone, work,github,password, cpassword });
             // yeha pe 
             await user.save();
             res.status(201).json({ message: "user registered successfuly" });
